@@ -501,28 +501,30 @@ img{display:block;max-width:100%}
   }
 }
 
-.topbar-contact,
-.topbar-whatsapp {
+.topbar-right {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
-
-.topbar-contact {
-  color: #e2c780;
-}
-
-.topbar-whatsapp {
-  color: #25D366;
-}
-
-.topbar-contact svg,
-.topbar-whatsapp svg {
-  display: block;
+  gap: 20px;
+  flex-wrap: nowrap;
 }
 
 .topbar-cnpj {
-  color: #cfc2ad;
-  font-size: 0.9rem;
+  color: #e2c780;
+  font-weight: 500;
+}
+
+.topbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #e2c780;
+  font-weight: 600;
+}
+
+.topbar-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #25D366;
+  font-weight: 600;
 }
