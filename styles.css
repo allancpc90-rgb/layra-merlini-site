@@ -547,6 +547,10 @@ img{display:block;max-width:100%}
   vertical-align: middle;
 }
 
+.footer-contact span {
+  display: inline-block;
+}
+
 .footer-contact svg {
   display: block;
 }
