@@ -500,3 +500,29 @@ img{display:block;max-width:100%}
     grid-template-columns: 1fr;
   }
 }
+
+.topbar-contact,
+.topbar-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.topbar-contact {
+  color: #e2c780;
+}
+
+.topbar-whatsapp {
+  color: #25D366;
+}
+
+.topbar-contact svg,
+.topbar-whatsapp svg {
+  display: block;
+}
+
+.topbar-cnpj {
+  color: #cfc2ad;
+  font-size: 0.9rem;
+}
