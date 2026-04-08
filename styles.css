@@ -538,7 +538,6 @@ img{display:block;max-width:100%}
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 10px;
   text-decoration: none;
   font-weight: 500;
 }
@@ -549,8 +548,4 @@ img{display:block;max-width:100%}
 
 .footer-contact.whatsapp {
   color: #25D366;
-}
-
-.footer-contact.instagram {
-  color: #E1306C;
 }
