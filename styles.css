@@ -533,3 +533,24 @@ img{display:block;max-width:100%}
  color: #e2c780;
   font-size: 0.9rem;
 }
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-contact svg {
+  display: block;
+}
+
+.footer-contact.whatsapp {
+  color: #25D366;
+}
+
+.footer-contact.instagram {
+  color: #E1306C;
+}
