@@ -530,3 +530,126 @@ span {
 .faq-list details {
   color: #1f1a14;
 }
+
+/* ========================= */
+/* AJUSTE PREMIUM COMPLETO */
+/* ========================= */
+
+/* FUNDO GERAL */
+body {
+  background: #f6f2ea;
+  color: #1f1a14;
+}
+
+/* HERO - CORREÇÃO TOTAL */
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background: linear-gradient(
+    90deg,
+    rgba(246,242,234,0.95) 0%,
+    rgba(246,242,234,0.85) 45%,
+    rgba(246,242,234,0.55) 100%
+  );
+}
+
+/* TEXTO HERO */
+.hero-copy h1 {
+  color: #1f1a14 !important;
+}
+
+.hero-text {
+  color: #3e352b !important;
+}
+
+/* MENU */
+.menu a{
+  color:#1f1a14 !important;
+}
+
+/* BOTÕES */
+.btn-primary {
+  background: linear-gradient(135deg, #c7a24a, #b8922e);
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+/* CARDS */
+.card {
+  background:#ffffff;
+  border:1px solid rgba(0,0,0,0.08);
+  box-shadow:0 8px 24px rgba(0,0,0,0.05);
+  color:#1f1a14;
+}
+
+/* BENEFÍCIOS */
+.benefit {
+  background:#ffffff;
+  border:1px solid rgba(0,0,0,0.08);
+  box-shadow:0 6px 18px rgba(0,0,0,0.04);
+}
+
+/* DEPOIMENTOS */
+.testimonial{
+  background:#ffffff;
+  border:1px solid rgba(0,0,0,0.08);
+  color:#1f1a14;
+}
+
+/* FAQ */
+.faq-list details{
+  background:#ffffff;
+  border:1px solid rgba(0,0,0,0.08);
+  color:#1f1a14;
+}
+
+/* SEÇÕES */
+.section-dark{
+  background:#f8f4ee;
+  color:#1f1a14;
+}
+
+/* CTA */
+.cta-section{
+  background:#f6f2ea;
+}
+
+.cta-box{
+  background:#ffffff;
+  border:1px solid rgba(0,0,0,0.08);
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.cta-box p{
+  color:#5f5548;
+}
+
+/* FOOTER */
+.footer{
+  background:#ffffff;
+  border-top:1px solid rgba(0,0,0,0.08);
+}
+
+.footer a, .footer span{
+  color:#5b5145;
+}
+
+/* TÍTULOS */
+h1, h2, h3, h4, h5 {
+  color:#1f1a14;
+}
+
+/* TEXTO */
+p {
+  color:#3e352b;
+}
+
+/* DOURADO MAIS FORTE */
+:root {
+  --gold:#b8922e;
+  --gold-soft:#caa94d;
+}
