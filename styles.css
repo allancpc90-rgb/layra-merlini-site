@@ -993,3 +993,22 @@ body{
     grid-template-columns:1fr;
   }
 }
+
+.brand-text{
+  display:flex;
+  flex-direction:column;
+  line-height:1.1;
+}
+
+.brand-adv{
+  font-size:0.7rem;
+  letter-spacing:2px;
+  color:#b8922e;
+  font-weight:500;
+}
+
+.brand-name{
+  font-size:1.6rem;
+  font-weight:600;
+  color:#1f1a14;
+}
