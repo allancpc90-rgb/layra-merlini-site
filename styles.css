@@ -5,8 +5,8 @@
   --text:#1f1a14;
   --text-dark:#1a1510;
   --muted:#6f6558;
-  --gold:#c7a24a;
-  --gold-soft:#dcc07a;
+  --gold:#b8922e;
+--gold-soft:#caa94d;
   --border:rgba(199,162,74,.18);
   --shadow:0 14px 34px rgba(44,35,22,.08);
 }
@@ -502,4 +502,31 @@ img{display:block;max-width:100%}
 
 .footer-contact.whatsapp {
   color: #25D366;
+}
+
+/* FORÇA TEXTO PRINCIPAL */
+h1, h2, h3, h4, h5, h6 {
+  color: #1f1a14;
+}
+
+p {
+  color: #3e352b;
+}
+
+span {
+  color: inherit;
+}
+
+.hero-copy h1 {
+  color: #1f1a14 !important;
+}
+
+.hero-text {
+  color: #3e352b !important;
+}
+
+.card,
+.testimonial,
+.faq-list details {
+  color: #1f1a14;
 }
