@@ -653,3 +653,151 @@ p {
   --gold:#b8922e;
   --gold-soft:#caa94d;
 }
+
+/* AJUSTE FINO PREMIUM CLARO */
+
+body{
+  background:#f6f2ea;
+  color:#1f1a14;
+}
+
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    90deg,
+    rgba(246,242,234,0.94) 0%,
+    rgba(246,242,234,0.82) 42%,
+    rgba(246,242,234,0.52) 100%
+  );
+}
+
+.hero-copy h1{
+  color:#1f1a14 !important;
+}
+
+.hero-text{
+  color:#3e352b !important;
+}
+
+.hero-card{
+  background:rgba(255,255,255,0.78);
+  border:1px solid rgba(184,146,46,0.16);
+  box-shadow:0 14px 34px rgba(31,26,20,0.08);
+  backdrop-filter:blur(6px);
+}
+
+.hero-card h3,
+.hero-card p,
+.hero-card li{
+  color:#1f1a14 !important;
+}
+
+.menu a{
+  color:#1f1a14 !important;
+}
+
+.section-dark{
+  background:#f8f4ee;
+  color:#1f1a14;
+}
+
+.card{
+  background:#ffffff;
+  border:1px solid rgba(31,26,20,0.08);
+  box-shadow:0 10px 24px rgba(31,26,20,0.05);
+  color:#1f1a14;
+}
+
+.card p,
+.text-block p,
+.benefit p,
+.testimonial p,
+.faq-list p,
+.cta-box p,
+.footer p{
+  color:#4e4438;
+}
+
+.benefit{
+  background:#ffffff;
+  border:1px solid rgba(31,26,20,0.08);
+  box-shadow:0 8px 18px rgba(31,26,20,0.04);
+}
+
+.testimonial{
+  background:#ffffff;
+  border:1px solid rgba(31,26,20,0.08);
+  color:#1f1a14;
+  box-shadow:0 10px 24px rgba(31,26,20,0.04);
+}
+
+.faq-list details{
+  background:#ffffff;
+  border:1px solid rgba(31,26,20,0.08);
+  color:#1f1a14;
+  box-shadow:0 8px 18px rgba(31,26,20,0.04);
+}
+
+.cta-section{
+  background:
+    radial-gradient(circle at top, rgba(184,146,46,0.12), rgba(255,255,255,0) 30%),
+    #f6f2ea;
+}
+
+.cta-box{
+  background:#ffffff;
+  border:1px solid rgba(31,26,20,0.08);
+  box-shadow:0 12px 28px rgba(31,26,20,0.05);
+}
+
+.footer{
+  background:#fffdf9;
+  border-top:1px solid rgba(31,26,20,0.08);
+}
+
+.footer a,
+.footer span{
+  color:#5b5145;
+}
+
+.footer-contact{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.footer-contact.whatsapp{
+  color:#25D366;
+}
+
+.footer-contact.instagram{
+  color:#E1306C;
+}
+
+.footer-contact svg{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.topbar-text{
+  color:#5b5145;
+}
+
+.topbar-cnpj,
+.topbar-contact{
+  color:#b8922e;
+}
+
+.topbar-whatsapp{
+  color:#25D366;
+}
+
+.topbar-right{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  flex-wrap:wrap;
+}
