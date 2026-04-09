@@ -847,3 +847,14 @@ body{
 .topbar-item svg {
   display: block;
 }
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(184,146,46,0.12);
+  color: #b8922e;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
