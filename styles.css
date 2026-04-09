@@ -1023,3 +1023,9 @@ body{
     margin-top:12px;
   }
 }
+
+.samarco-note{
+  color:#6a5f52;
+  font-size:0.95rem;
+  margin:18px 0 10px;
+}
