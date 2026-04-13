@@ -1378,3 +1378,40 @@ body{
     grid-template-columns:1fr;
   }
 }
+
+.footer-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 14px;
+  border-radius:8px;
+  text-decoration:none;
+  font-size:0.9rem;
+  font-weight:500;
+  margin-bottom:10px;
+  transition:0.25s ease;
+}
+
+/* WhatsApp */
+.footer-btn.whatsapp{
+  background:#25D366;
+  color:#fff;
+}
+
+.footer-btn.whatsapp:hover{
+  opacity:0.85;
+}
+
+/* Instagram */
+.footer-btn.instagram{
+  background:#E1306C;
+  color:#fff;
+}
+
+.footer-btn.instagram:hover{
+  opacity:0.85;
+}
+
+.footer-btn svg{
+  display:block;
+}
