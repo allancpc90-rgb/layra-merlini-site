@@ -1415,3 +1415,29 @@ body{
 .footer-btn svg{
   display:block;
 }
+
+.footer-link{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:10px;
+}
+
+.footer-link a{
+  color:#f5f1ea;
+  text-decoration:none;
+  font-size:0.95rem;
+}
+
+.footer-link a:hover{
+  color:#b8922e;
+}
+
+/* cores dos ícones */
+.footer-link.whatsapp svg{
+  color:#25D366;
+}
+
+.footer-link.instagram svg{
+  color:#E1306C;
+}
