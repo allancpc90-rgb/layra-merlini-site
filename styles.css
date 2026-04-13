@@ -875,7 +875,9 @@ body{
 }
 
 .samarco-section{
-  background:#fffdf9;
+  position: relative;
+  background: url('/fundo-samarco.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 .samarco-grid{
@@ -1080,4 +1082,25 @@ body{
 .cards-grid .card:first-child{
   border:1px solid rgba(184,146,46,.32);
   box-shadow:0 14px 30px rgba(184,146,46,.08);
+}
+
+/* FUNDO SAMARCO + OVERLAY */
+
+.samarco-section{
+  position: relative;
+  background: url('/fundo-samarco.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.samarco-section::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(246,242,234,0.92);
+  z-index: 1;
+}
+
+.samarco-box{
+  position: relative;
+  z-index: 2;
 }
